@@ -6,6 +6,7 @@ import { pretendard } from "src/assets"
 export const Global = () => {
   const theme = useTheme()
 
+  // 全域CSS在這邊!!
   return (
     <_Global
       styles={css`
@@ -13,7 +14,7 @@ export const Global = () => {
           margin: 0;
           padding: 0;
           color: ${theme.colors.gray12};
-          background-color: ${theme.colors.gray2};
+          background-color: #323042;
           font-family: ${pretendard.style.fontFamily};
           font-weight: ${pretendard.style.fontWeight};
           font-style: ${pretendard.style.fontStyle};
@@ -72,6 +73,9 @@ export const Global = () => {
           border: none;
           margin: 0;
           border-top: 1px solid ${theme.colors.gray6};
+        }
+        .css-1rxl5k6 {
+          background-color: #3f3a5c!important;
         }
       `}
     />
