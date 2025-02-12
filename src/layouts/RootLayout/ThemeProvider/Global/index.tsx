@@ -77,6 +77,18 @@ export const Global = () => {
         .css-1rxl5k6 {
           background-color: #3f3a5c!important;
         }
+        .css-9hht0b >.mid {
+          background-color: #3f3a5c!important;
+        }
+        .css-n6ste >.content {
+          background-color: #3f3a5c!important;
+        }
+        .css-sbeisr {
+          background-color: #3f3a5c!important;
+        }
+        .css-15jpr8u {
+          background-color: #3f3a5c!important;
+        }
       `}
     />
   )
