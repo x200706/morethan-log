@@ -120,7 +120,11 @@ export const Global = () => {
         .css-diyve4 ul li,
         .css-15jpr8u > a,
         .css-sbeisr a,
-        .css-5awg76 a,
+        .css-5awg76 a {
+          color: var(--link-color) !important;
+          opacity: .7;
+        }
+
         .css-tu7kc0 >.content {
           color: var(--link-color) !important;
           opacity: .7;
