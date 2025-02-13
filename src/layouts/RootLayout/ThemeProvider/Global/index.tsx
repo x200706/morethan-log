@@ -97,13 +97,13 @@ export const Global = () => {
           background: var(--part2-bg-color) !important;
         }
 
-        .notion-simple-table td {
-         border: none;
+        .notion-simple-table td,
+        .notion-simple-table {
+         border: none !important;
         }
 
         .css-th7yno,
         .css-diyve4 ul li,
-        .css-1q3b1wx nav,
         .css-15jpr8u > a,
         .css-sbeisr a {
           color: var(--link-color) !important;
@@ -111,11 +111,11 @@ export const Global = () => {
 
         .css-15jpr8u > a:hover,
         .css-sbeisr a:hover {
-          background-color: inherit;
+          background-color: inherit !important;
         }
 
         .css-1h5x3dy {
-         visibility: hidden;
+         visibility: hidden !important;
         }
       `}
     />
