@@ -76,9 +76,9 @@ export const Global = () => {
         }
 
         :root {
-          --part1-bg-color: #3f3a5c;
-          --part2-bg-color: #323042;
-          --light-text-color: #a096b9;
+          --part1-bg-color: #3a3e5c;
+          --part2-bg-color: #303142; 
+          --light-text-color: #969fb9;
           --link: #FFFFFFE6;
         }
 
