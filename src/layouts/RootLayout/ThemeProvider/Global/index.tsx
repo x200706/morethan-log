@@ -134,6 +134,10 @@ export const Global = () => {
         .css-1h5x3dy {
          visibility: hidden !important;
         }
+
+        .notion-inline-code {
+          color: #afb5e3;
+        }
       `}
     />
   )
