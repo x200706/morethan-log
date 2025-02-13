@@ -79,6 +79,7 @@ export const Global = () => {
           --part1-bg-color: #3f3a5c;
           --part2-bg-color: #323042;
           --light-text-color: #a096b9;
+          --link: #FFFFFFE6;
         }
 
         .css-1rxl5k6,
@@ -107,16 +108,18 @@ export const Global = () => {
         .css-ricqr5 article >.content >.date .content,
         .css-1q3b1wx nav,
         .css-o3k89e,
-        .css-n6ste >.content .mid .role {
+        .css-n6ste >.content .mid .role,
+        .css-1kjebhu .list a {
           color: var(--light-text-color) !important;
         }
 
-        // .css-th7yno,
-        // .css-diyve4 ul li,
-        // .css-15jpr8u > a,
-        // .css-sbeisr a {
-        //   color: var(--link-color) !important;
-        // }
+        .css-th7yno,
+        .css-diyve4 ul li,
+        .css-15jpr8u > a,
+        .css-sbeisr a,
+        .css-5awg76 a {
+          color: var(--link-color) !important;
+        }
 
         .css-15jpr8u > a:hover,
         .css-sbeisr a:hover {
