@@ -74,20 +74,48 @@ export const Global = () => {
           margin: 0;
           border-top: 1px solid ${theme.colors.gray6};
         }
-        .css-1rxl5k6 {
-          background-color: #3f3a5c!important;
+
+        :root {
+          --part1-bg-color: #3f3a5c;
+          --part2-bg-color: #323042;
+          --link-color: #a096b9;
         }
-        .css-9hht0b >.mid {
-          background-color: #3f3a5c!important;
+
+        .css-1rxl5k6,
+        .css-9hht0b > .mid,
+        .css-n6ste > .content,
+        .css-sbeisr,
+        .css-15jpr8u,
+        .css-776fao,
+        .css-ysntgw > .mid,
+        .css-ricqr5 article > .content[data-thumb="false"] {
+          background-color: var(--part1-bg-color) !important;
         }
-        .css-n6ste >.content {
-          background-color: #3f3a5c!important;
+        
+        :not(pre)>code[class*=language-], pre[class*=language-],
+        .notion-simple-table tr:first-child td {
+          background: var(--part2-bg-color) !important;
         }
-        .css-sbeisr {
-          background-color: #3f3a5c!important;
+
+        .notion-simple-table td {
+         border: none;
         }
-        .css-15jpr8u {
-          background-color: #3f3a5c!important;
+
+        .css-th7yno,
+        .css-diyve4 ul li,
+        .css-1q3b1wx nav,
+        .css-15jpr8u > a,
+        .css-sbeisr a {
+          color: var(--link-color) !important;
+        }
+
+        .css-15jpr8u > a:hover,
+        .css-sbeisr a:hover {
+          background-color: inherit;
+        }
+
+        .css-1h5x3dy {
+         visibility: hidden;
         }
       `}
     />
