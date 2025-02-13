@@ -78,7 +78,7 @@ export const Global = () => {
         :root {
           --part1-bg-color: #3f3a5c;
           --part2-bg-color: #323042;
-          --link-color: #a096b9;
+          --light-text-color: #a096b9;
         }
 
         .css-1rxl5k6,
@@ -88,12 +88,14 @@ export const Global = () => {
         .css-15jpr8u,
         .css-776fao,
         .css-ysntgw > .mid,
-        .css-ricqr5 article > .content[data-thumb="false"] {
+        .css-ricqr5 article > .content[data-thumb="false"],
+        .css-1kjebhu .list a:hover {
           background-color: var(--part1-bg-color) !important;
         }
         
         :not(pre)>code[class*=language-], pre[class*=language-],
-        .notion-simple-table tr:first-child td {
+        .notion-simple-table tr:first-child td,
+        .css-o3k89e {
           background: var(--part2-bg-color) !important;
         }
 
@@ -102,12 +104,19 @@ export const Global = () => {
          border: none !important;
         }
 
-        .css-th7yno,
-        .css-diyve4 ul li,
-        .css-15jpr8u > a,
-        .css-sbeisr a {
-          color: var(--link-color) !important;
+        .css-ricqr5 article >.content >.date .content,
+        .css-1q3b1wx nav,
+        .css-o3k89e,
+        .css-n6ste >.content .mid .role {
+          color: var(--light-text-color) !important;
         }
+
+        // .css-th7yno,
+        // .css-diyve4 ul li,
+        // .css-15jpr8u > a,
+        // .css-sbeisr a {
+        //   color: var(--link-color) !important;
+        // }
 
         .css-15jpr8u > a:hover,
         .css-sbeisr a:hover {
