@@ -90,13 +90,16 @@ export const Global = () => {
         .css-776fao,
         .css-ysntgw > .mid,
         .css-ricqr5 article > .content[data-thumb="false"],
-        .css-1kjebhu .list a:hover {
+        .css-1kjebhu .list a:hover,
+        .css-1kjebhu .list a[data-active="true"],
+        .css-tu7kc0 >.content >.item:hover {
           background-color: var(--part1-bg-color) !important;
         }
         
         :not(pre)>code[class*=language-], pre[class*=language-],
         .notion-simple-table tr:first-child td,
-        .css-o3k89e {
+        .css-o3k89e,
+        .css-tu7kc0 >.content {
           background: var(--part2-bg-color) !important;
         }
 
@@ -117,8 +120,10 @@ export const Global = () => {
         .css-diyve4 ul li,
         .css-15jpr8u > a,
         .css-sbeisr a,
-        .css-5awg76 a {
+        .css-5awg76 a,
+        .css-tu7kc0 >.content {
           color: var(--link-color) !important;
+          opacity: .7;
         }
 
         .css-15jpr8u > a:hover,
