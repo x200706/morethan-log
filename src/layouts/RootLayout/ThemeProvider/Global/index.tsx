@@ -127,7 +127,6 @@ export const Global = () => {
 
         .css-tu7kc0 >.content {
           color: var(--link-color) !important;
-          opacity: .7;
         }
 
         .css-15jpr8u > a:hover,
