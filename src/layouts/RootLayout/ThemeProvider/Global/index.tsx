@@ -138,6 +138,10 @@ export const Global = () => {
         .notion-inline-code {
           color: #afb5e3;
         }
+
+        .notion-equation:active, .notion-equation:focus, .notion-equation:hover {
+          background: none; 
+        }
       `}
     />
   )
