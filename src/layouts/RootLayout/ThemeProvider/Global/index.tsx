@@ -145,6 +145,12 @@ export const Global = () => {
         .notion-equation:active, .notion-equation:focus, .notion-equation:hover {
           background: none; 
         }
+
+        // 代碼highlight覆蓋
+        //TODO 改天把之前自定義的配色方案蓋上來吧
+        .token.constant, .token.deleted, .token.property, .token.symbol, .token.tag {
+          color: #ff7dc5; // 他原本那個紅色看得我眼睛好辣
+        }
       `}
     />
   )
